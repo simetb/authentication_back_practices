@@ -1,7 +1,12 @@
+"""
+    JWT Token Generator and Decodifier
+    Example of JWT Token authentication with Python
+"""
 import jwt
 import datetime
 
 USER_ID = 145
+
 # Define the info that you want to include in the token
 payload = {
     'user_id': USER_ID,
@@ -13,7 +18,6 @@ payload = {
 secret_key ='my_secret_key'
 token = jwt.encode(payload, secret_key, algorithm='HS256')
 print(token)
-
 
 try:
     # Decodify the token

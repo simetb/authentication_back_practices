@@ -1,3 +1,6 @@
+"""
+    Token Base 64 Encoding
+"""
 import base64
 
 # Replace 'username' and 'password' with your own credentials
