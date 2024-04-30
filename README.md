@@ -1,6 +1,6 @@
 # Practice Repository for Token Validation and Authentication (Python)
 
-This repository contains practical examples for token validation and authentication using various methods including OAuth, JWT, basic authentication, and Base64.
+This repository contains practical examples for token validation and authentication using various methods including OAuth, JWT, cookies , and Base64.
 
 ## Included Methods
 
